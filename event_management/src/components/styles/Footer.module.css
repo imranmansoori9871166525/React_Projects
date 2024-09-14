@@ -1,0 +1,26 @@
+.footer_parent {
+  background-color: #222222;
+}
+.hoverButton:hover {
+  background-color: #0056b3;
+}
+.hoverButton {
+  background-color: rgb(0, 123, 255);
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 480px) {
+.footerspacetext {
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+}
+.hoverButton {
+  right: 20px !important;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+  .hoverButton {
+    right: 20px !important;
+  }
+}
+

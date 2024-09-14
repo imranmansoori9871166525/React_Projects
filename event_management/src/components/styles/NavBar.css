@@ -1,0 +1,42 @@
+.nav-link.active {
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .nav-link.active {
+    transform: scale(1) !important;
+  }
+  .navbar-nav button {
+    width: 30%;
+    left: 1rem;
+    position: relative;
+    margin: 1rem 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 3px #0056b3 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .nav-link.active {
+    transform: scale(1);
+  }
+  .navbar-nav button {
+    width: 30%;
+    left: 1rem;
+    position: relative;
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-link.active {
+    transform: scale(1);
+  }
+  .navbar-nav button {
+    width: 30%;
+    left: 1rem;
+    position: relative;
+    margin: 1rem 0;
+  }
+}

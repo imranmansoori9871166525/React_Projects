@@ -1,0 +1,125 @@
+/* navigation css */
+.nav-link.active {
+  color: #000000 !important;
+  /* color: #007bff !important; */
+  transform: scale(0.95);
+  font-weight: 600;
+}
+
+.nav-link {
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* about us */
+@media (max-width: 480px) {
+  .circle_width {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .mainContainer {
+    margin: auto;
+  }
+  .mainContainerImg {
+    width: 100% !important;
+    margin: 2rem 0;
+  }
+  .flexClassAboutUs {
+    flex-direction: column !important;
+  }
+  .circle {
+    width: 300px !important;
+    height: 300px !important;
+    left: -4rem !important;
+  }
+  .leftClassBlank {
+    left: -2rem !important;
+    top: 1rem !important;
+  }
+  /* Category Page */
+  .mainCategoryPage {
+    padding: 0 2rem;
+  }
+  .marginTopCategoryPage {
+    padding-top: 2rem;
+  }
+  /* backgroundImage */
+  .backgroundImageFont {
+    font-size: 2rem !important;
+  }
+  /*  .backImageForm  */
+  .backImageResponsive {
+    font-size: 2rem !important;
+    margin: 0 !important;
+    padding: 1.5rem 1rem !important;
+  }
+  /* Services */
+  .ServicesWidth {
+    width: 100% !important;
+    padding: 0.5rem 0 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .circle_width {
+    width: 450px !important;
+    height: 450px !important;
+    margin-bottom: 3rem;
+  }
+  .mainContainer {
+    margin: auto;
+  }
+  .mainContainerImg {
+    width: 100% !important;
+    margin: 2rem 0;
+  }
+  /* Category Page */
+  .mainCategoryPage {
+    padding: 0 2rem;
+  }
+  .marginTopCategoryPage {
+    padding-top: 2rem;
+  }
+  /*  .backImageForm  */
+  .backImageResponsive {
+    font-size: 2rem !important;
+    margin: 0 !important;
+    padding: 1.5rem 1rem !important;
+  }
+  /* Services */
+  .ServicesWidth {
+    width: 100% !important;
+    padding: 0.5rem 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainContainer {
+    margin: auto;
+  }
+  .mainContainerImg {
+    width: 100% !important;
+    margin: 2rem 0;
+  }
+  /* Category Page */
+  .marginTopCategoryPage {
+    padding-top: 3rem;
+  }
+  /*  .backImageForm  */
+  .backImageResponsive {
+    font-size: 3rem !important;
+  }
+}

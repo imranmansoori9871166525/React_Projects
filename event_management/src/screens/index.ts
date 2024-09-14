@@ -1,0 +1,10 @@
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as ErrorPage } from "./ErrorPage";
+export { default as TestimonialPage } from "./TestimonialPage";
+export { default as Gallery } from "./Gallery";
+export { default as ContactUs } from "./ContactUs";
+export { default as Services } from "./Services";
+export { default as SpecificServicesPage } from "./SpecificServicesPage";
+export { default as  PrivacyPolicy } from "./PrivacyPolicy";
+export { default as  TermsNcondition } from "./TermsNcondition";

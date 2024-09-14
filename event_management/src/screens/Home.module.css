@@ -1,0 +1,35 @@
+.smallCircle img {
+  width: 350px;
+  height: 350px;
+}
+.smallCircle {
+  position: relative;
+  top: -2rem;
+}
+.bigCircle img {
+  width: 500px;
+  height: 500px;
+}
+.bigCircle {
+  position: relative;
+  right: 17rem;
+  top: -8rem;
+}
+
+@media (max-width: 480px) {
+  .circleHome {
+    width: 80% !important;
+    flex-direction: column !important;
+    margin: 1.5rem auto !important;
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .circleHome {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}

@@ -1,0 +1,94 @@
+.form {
+  width: 100%;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  flex: 1;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 350px;
+  outline: none;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  padding-left: 20px;
+  height: 60px;
+}
+
+.fullWidthButton {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer !important;
+}
+
+.fullWidthButton:hover {
+  background-color: #0056b3;
+}
+
+/* contact us */
+@media (max-width: 480px) {
+  .background_image_Contact_us {
+    height: 600px !important;
+    margin-bottom: 2rem;
+    width: 100% !important;
+  }
+  .cardParentContactUs {
+    width: 85% !important;
+  }
+  .inputRow {
+    flex-direction: column;
+  }
+  .fromParentContactUs {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .background_image_Contact_us {
+    height: 600px !important;
+    margin-bottom: 2rem;
+    width: 100% !important;
+  }
+  .inputRow {
+    flex-direction: column;
+  }
+  .fromParentContactUs {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .background_image_Contact_us {
+    height: 600px !important;
+    margin-bottom: 2rem;
+    width: 100% !important;
+  }
+}

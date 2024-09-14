@@ -1,0 +1,67 @@
+.fade-out {
+  animation: fadeOut 0.4s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-custom {
+  border: none;
+}
+
+/* styles/Testimonial.css */
+.hoverButtonTestimonial {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 123, 255);
+  padding: 1rem;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.hoverButtonTestimonial:hover {
+  background-color: #0056b326;
+}
+
+@media (max-width: 480px) {
+  .hoverButtonTestimonial {
+    display: none;
+  }
+  .mainTestimonials {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hoverButtonTestimonial {
+    display: none;
+  }
+  .mainTestimonials {
+    width: 100% !important;
+    margin: 2rem 0 !important;
+    padding: 0 !important;
+  }
+}
